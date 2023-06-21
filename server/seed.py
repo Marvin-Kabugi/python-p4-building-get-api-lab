@@ -31,7 +31,7 @@ with app.app_context():
         while name in names:
             name = fake.first_name()
         names.append(name)
-
+ 
         bg = BakedGood(
             name=name,
             price=randint(1,10),
